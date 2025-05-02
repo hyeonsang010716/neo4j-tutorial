@@ -1,0 +1,14 @@
+[project]
+name = "neo4j-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.24",
+    "langchain-google-genai>=2.1.4",
+    "langchain-neo4j>=0.4.0",
+    "langchain-openai>=0.3.15",
+    "numpy==1.26.4",
+    "python-dotenv>=1.1.0",
+]
